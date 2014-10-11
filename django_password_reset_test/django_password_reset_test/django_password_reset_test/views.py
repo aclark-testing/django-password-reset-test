@@ -5,4 +5,4 @@ def root(request):
     """
     """
 
-    return render_to_response('templates/root.html')
+    return render_to_response('root.html')
