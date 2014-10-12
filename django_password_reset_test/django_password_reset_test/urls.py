@@ -7,5 +7,5 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', include('django_password_reset_test.django_password_reset_test.urls')),
+    url(r'', include('django_password_reset_test.django_password_reset_test.urls')),
 )
