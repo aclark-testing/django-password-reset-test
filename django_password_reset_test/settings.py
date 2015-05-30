@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = (
 
     # Add into the INSTALLED_APPS before 'django.contrib.admin'
-    'django_admin_bootstrapped.bootstrap3',
     'django_admin_bootstrapped',
 
     'django.contrib.admin',
